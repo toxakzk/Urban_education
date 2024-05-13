@@ -1,0 +1,7 @@
+my_string = input('Введите фразу ')
+print('колличество символов:', len(my_string))
+print('в нижнем регистре:', my_string.lower())
+print('в верхнем регистре:', my_string.upper())
+print('без пробелов:', my_string.replace(' ','#'))
+print('первый символ', my_string[0])
+print('последний символ', my_string[-1])
